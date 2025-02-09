@@ -47,9 +47,9 @@ Im Folgenden findest du eine komprimierte Übersicht über die Inhalte, die im C
 
 - **Kosten-Nutzen-Prinzip:**  
   - Eine Handlung wird durchgeführt, wenn der erwartete Netto-Nutzen positiv ist:  
-    \[
+    $`
       \text{Netto-Nutzen} = \text{(direkter Nutzen)} - \text{(direkte Kosten)} - \text{(Opportunitätskosten)}.
-    \]
+    `$
   - Versunkene Kosten werden nicht berücksichtigt.
 
 - **Auktionsdesigns (Kurzübersicht):**  
@@ -101,35 +101,35 @@ In der Spieltheorie werden strategische Entscheidungen mit mindestens zwei Spiel
   - $` D(p) `$ = Nachfragefunktion  
   - $` S(p) `$ = Angebotsfunktion  
 - **Marktgleichgewicht:**  
-  \[
+  $`
     D(p) = S(p).
-  \]
+  `$
   - Hier finden sich Gleichgewichtspreis $` p^* `$ und Gleichgewichtsmenge $` q^* `$.  
 - **Erlösfunktion:**  
-  \[
+  $`
     R(p) = p \times q(p).
-  \]
+  `$
   - Wird manchmal nach dem Maximum gefragt (Ableitung = 0).  
 
 ### 4.2 Elastizitäten
 
 - **Preiselastizität der Nachfrage:**  
-  \[
+  $`
     E_{D}(p) 
     = \frac{\partial D(p)}{\partial p} 
     \cdot \frac{p}{D(p)}.
-  \]
+  `$
   - **Interpretation:** Wie stark reagiert die nachgefragte Menge prozentual auf eine Preisänderung von 1 %?  
   - **Unterscheidung nach Betragswert:**
     - $` > 1 `$: elastische Nachfrage (Luxusgüter etc.)  
     - $` = 1 `$: einheitselastisch  
     - $` < 1 `$: unelastisch (z. B. Güter des täglichen Bedarfs)  
 - **Einkommenselastizität der Nachfrage:**  
-  \[
+  $`
     E_{D}(m) 
     = \frac{\partial D}{\partial m} 
     \cdot \frac{m}{D(m)}.
-  \]
+  `$
   - **Interpretation:** Wie stark verändert sich die nachgefragte Menge, wenn das Einkommen um 1 % steigt?  
   - $` > 0 `$: normales Gut (Nachfrage steigt bei höherem Einkommen).  
   - $` < 0 `$: inferiores Gut (Nachfrage sinkt, wenn Einkommen steigt).  
