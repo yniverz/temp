@@ -81,9 +81,9 @@ In der Spieltheorie werden strategische Entscheidungen mit mindestens zwei Spiel
 
 - Falls es in reinen Strategien kein (oder kein eindeutiges) Nash-Gleichgewicht gibt, kann eines in **gemischten Strategien** existieren.  
 - **Vorgehen:**  
-  - Ein Spieler mischt mit Wahrscheinlichkeit \( p \) zwischen seinen zwei Aktionen (z. B. “oben” vs. “unten”).  
-  - Der andere Spieler mischt mit Wahrscheinlichkeit \( q \) zwischen seinen zwei Aktionen (z. B. “links” vs. “rechts”).  
-  - Für das Gleichgewicht gilt: Die Spieler sind indifferent zwischen ihren eigenen Strategien, wenn die Mischstrategie des Gegenübers „korrekt gewählt“ ist. Man setzt also die Erwartungsnutzen der Strategien gleich und löst nach \( p \) bzw. \( q \) auf.
+  - Ein Spieler mischt mit Wahrscheinlichkeit $` p `$ zwischen seinen zwei Aktionen (z. B. “oben” vs. “unten”).  
+  - Der andere Spieler mischt mit Wahrscheinlichkeit $` q `$ zwischen seinen zwei Aktionen (z. B. “links” vs. “rechts”).  
+  - Für das Gleichgewicht gilt: Die Spieler sind indifferent zwischen ihren eigenen Strategien, wenn die Mischstrategie des Gegenübers „korrekt gewählt“ ist. Man setzt also die Erwartungsnutzen der Strategien gleich und löst nach $` p `$ bzw. $` q `$ auf.
 
 ### 3.3 Sequenzielle Spiele (Kurzüberblick)
 
@@ -97,14 +97,14 @@ In der Spieltheorie werden strategische Entscheidungen mit mindestens zwei Spiel
 ### 4.1 Angebot, Nachfrage und Marktgleichgewicht
 
 - **Notation:**  
-  - \( p \) = Preis, \( q \) = Menge  
-  - \( D(p) \) = Nachfragefunktion  
-  - \( S(p) \) = Angebotsfunktion  
+  - $` p `$ = Preis, $` q `$ = Menge  
+  - $` D(p) `$ = Nachfragefunktion  
+  - $` S(p) `$ = Angebotsfunktion  
 - **Marktgleichgewicht:**  
   \[
     D(p) = S(p).
   \]
-  - Hier finden sich Gleichgewichtspreis \( p^* \) und Gleichgewichtsmenge \( q^* \).  
+  - Hier finden sich Gleichgewichtspreis $` p^* `$ und Gleichgewichtsmenge $` q^* `$.  
 - **Erlösfunktion:**  
   \[
     R(p) = p \times q(p).
@@ -121,9 +121,9 @@ In der Spieltheorie werden strategische Entscheidungen mit mindestens zwei Spiel
   \]
   - **Interpretation:** Wie stark reagiert die nachgefragte Menge prozentual auf eine Preisänderung von 1 %?  
   - **Unterscheidung nach Betragswert:**
-    - \( > 1 \): elastische Nachfrage (Luxusgüter etc.)  
-    - \( = 1 \): einheitselastisch  
-    - \( < 1 \): unelastisch (z. B. Güter des täglichen Bedarfs)  
+    - $` > 1 `$: elastische Nachfrage (Luxusgüter etc.)  
+    - $` = 1 `$: einheitselastisch  
+    - $` < 1 `$: unelastisch (z. B. Güter des täglichen Bedarfs)  
 - **Einkommenselastizität der Nachfrage:**  
   \[
     E_{D}(m) 
@@ -131,10 +131,10 @@ In der Spieltheorie werden strategische Entscheidungen mit mindestens zwei Spiel
     \cdot \frac{m}{D(m)}.
   \]
   - **Interpretation:** Wie stark verändert sich die nachgefragte Menge, wenn das Einkommen um 1 % steigt?  
-  - \( > 0 \): normales Gut (Nachfrage steigt bei höherem Einkommen).  
-  - \( < 0 \): inferiores Gut (Nachfrage sinkt, wenn Einkommen steigt).  
+  - $` > 0 `$: normales Gut (Nachfrage steigt bei höherem Einkommen).  
+  - $` < 0 `$: inferiores Gut (Nachfrage sinkt, wenn Einkommen steigt).  
 - **Isoelastische Nachfrage:**  
-  - Die Elastizität bleibt für alle Preise/Einkommen konstant (z. B. immer genau \( E_{D} = 1 \)).  
+  - Die Elastizität bleibt für alle Preise/Einkommen konstant (z. B. immer genau $` E_{D} = 1 `$).  
 
 ---
 
@@ -156,12 +156,12 @@ In der Spieltheorie werden strategische Entscheidungen mit mindestens zwei Spiel
 ### 5.1 Steuern
 
 - **Mengensteuer:**  
-  - Fester Betrag \( t \) pro verkaufter Einheit.  
-  - Neuer Nachfragepreis \( p_D = p_S + t \).  
-  - Anbieter erhält \( p_S \), Nachfrager zahlt \( p_D \).  
+  - Fester Betrag $` t `$ pro verkaufter Einheit.  
+  - Neuer Nachfragepreis $` p_D = p_S + t `$.  
+  - Anbieter erhält $` p_S `$, Nachfrager zahlt $` p_D `$.  
 - **Wertsteuer (Ad-Valorem-Steuer):**  
-  - Anteil \( \tau \) (z. B. 19 % USt/Mehrwertsteuer).  
-  - Neuer Preis: \( p_D = (1 + \tau)\, p_S \).  
+  - Anteil $` \tau `$ (z. B. 19 % USt/Mehrwertsteuer).  
+  - Neuer Preis: $` p_D = (1 + \tau)\, p_S `$.  
 - **Steuerlastaufteilung:**  
   - Wer tatsächlich welchen Anteil der Steuer trägt (Konsument oder Produzent) hängt von den Elastizitäten von Angebot und Nachfrage ab.  
 
@@ -169,11 +169,11 @@ In der Spieltheorie werden strategische Entscheidungen mit mindestens zwei Spiel
 
 ## 6. Grundlagen zu Präferenzen (zwei Güter)
 
-- **Zwei Güter, verschiedene Güterbündel:** Ein Konsument wählt eine Kombination \((x_1, x_2)\).  
+- **Zwei Güter, verschiedene Güterbündel:** Ein Konsument wählt eine Kombination $`(x_1, x_2)`$.  
 - **Präferenzrelationen:**  
-  - Strikte Präferenz: \( x \succ y \) („x wird strikt bevorzugt gegenüber y“).  
-  - Schwache Präferenz: \( x \succeq y \) („x ist mindestens so gut wie y“).  
-  - Indifferenz: \( x \sim y \) („beide Bündel sind gleich gut“).  
+  - Strikte Präferenz: $` x \succ y `$ („x wird strikt bevorzugt gegenüber y“).  
+  - Schwache Präferenz: $` x \succeq y `$ („x ist mindestens so gut wie y“).  
+  - Indifferenz: $` x \sim y `$ („beide Bündel sind gleich gut“).  
 - **Axiome:**  
   1. **Vollständigkeit**: Zwischen jedem Paar von Güterbündeln kann entschieden werden (Präferenz oder Indifferenz).  
   2. **Reflexivität**: Jedes Bündel ist mindestens so gut wie es selbst.  
@@ -216,5 +216,5 @@ Der Crashkurs deckt die zentralen Konzepte von VWL 1 (Mikroökonomie) ab, die mi
 2. **Marktgleichgewicht**: Angebot und Nachfrage gleichsetzen, Preis und Menge bestimmen.  
 3. **Elastizitäten**: Formeln kennen und interpretieren (elastisch vs. unelastisch, normales vs. inferiores Gut).  
 4. **Wohlfahrt**: Konsumenten- und Produzentenrente als Dreiecke berechnen, Wohlfahrtsverlust bei staatlichen Eingriffen und Steuern erkennen.  
-5. **Steuern**: Unterscheiden zwischen Mengen- und Wertsteuer; Aufteilen in \( p_S \) (Anbieterpreis) und \( p_D \) (Nachfragerpreis).  
+5. **Steuern**: Unterscheiden zwischen Mengen- und Wertsteuer; Aufteilen in $` p_S `$ (Anbieterpreis) und $` p_D `$ (Nachfragerpreis).  
 6. **Präferenzen**: Grundbegriffe (strikt/schwach, Monotonie, Konvexität) sowie die Axiome.  
